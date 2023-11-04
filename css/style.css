@@ -81,3 +81,14 @@ section img {
 h2 {
     margin-bottom: -0.5em;
 }
+
+/* page review */
+.page2 h1,.page3 h1,.page4 h1 {
+    margin-top: -3px;
+    margin-bottom: -9px;
+}
+
+hr {
+    color: rgb(254, 241, 224);
+    margin-top: 2em;
+}
