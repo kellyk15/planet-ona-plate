@@ -102,16 +102,13 @@ section{
 }
 
 .page1 section img {
-    width: 25vw;
     border-radius: 17px;
     box-shadow: 4px 6px 8px rgb(12, 55, 33);
     margin-right: 0.5em;
-}
-
-.navhome {
     width: 6.5em;
     height: 6.5em;
 }
+
 
 
 /* page review */
