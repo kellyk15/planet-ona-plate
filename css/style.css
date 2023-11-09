@@ -13,7 +13,7 @@ body{
     color: rgb(254, 241, 224);
     padding: 1em 1em 0 1em;
     letter-spacing: 1px;
-    margin-bottom: 20em;
+    margin-bottom: 10em;
 }
 
 nav {
@@ -89,15 +89,17 @@ h2 {
     margin-right: auto;
     margin-bottom: 2em;
     margin-top: 10px;
-    width: 65%;
+    width:70%;
 }
 
 section{
-    background-color: E0B1A9;
+    background-color: rgb(22, 79, 50);
+    border-radius: 25px;
     display: flex;
     flex-direction: row;
     gap: 1em;
-    padding: 1.5em 1.5em 1.5em 0.5em;
+    padding: 1.5em 1.5em 1.5em 1em;
+    margin-top: 1em;
 
 }
 
@@ -113,6 +115,10 @@ section{
     margin-right: 0.5em;
     width: 6.5em;
     height: 6.5em;
+}
+
+.page1 section p {
+    font-size: small;
 }
 
 
@@ -310,7 +316,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 150px;
-    margin-top: 8em;
+    margin-top: 5em;
     box-shadow: 4px 6px 8px rgb(12, 55, 33);
 }
 
