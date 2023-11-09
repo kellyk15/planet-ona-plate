@@ -128,12 +128,11 @@ hr {
     margin-top: 2em;
 }
 
-ul {
+.page2 ul {
     list-style: none;
     position: fixed;
     top: 150px;
     
-
     width: 110px;
     height: 180px;
     background-color:rgb(254, 241, 224) ;
@@ -142,14 +141,14 @@ ul {
     margin-left: -30px;
 }
 
-ul li {
+.page2 ul li {
     padding-left: 18px;
     padding-top: 10px;
     padding-right: 8px;
     margin-top: 10px;
 }
 
-ul li a {
+.page2 ul li a {
     color: rgb(10, 55, 32);
     text-decoration: none;
     font-weight: bold;
@@ -273,4 +272,59 @@ header {
 }
 .line-thru {
     text-decoration: line-through;
+}
+
+/* kritiek page */
+.kritiek {
+    margin-top: 8em;
+}
+
+.page3 h3 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.page3 ul {
+    background-color:rgb(224, 177, 169) ;
+    border: 4px solid rgb(254, 241, 224);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px 5px 20px 5px;
+    font-weight: 500;
+    list-style: none;
+}
+.page3 ul:nth-child(3) {
+    background-color: rgb(22, 79, 50);
+}
+.page3 ul li {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+/* info page */
+.logotgtg {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    margin-top: 8em;
+    box-shadow: 4px 6px 8px rgb(12, 55, 33);
+}
+
+.page4 h3 {
+    margin-top: 4em;
+    margin-left: 8px;
+    margin-bottom: 15px;
+    font-size: xx-large;
+}
+
+.page4 h4 {
+    margin-left: 8px;
+}
+.page4 p {
+    margin-left: 8px;
+    margin-bottom: 25px;
 }
