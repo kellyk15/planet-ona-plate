@@ -54,6 +54,10 @@ a:hover {
     background-color: rgb(224, 177, 169);
 }
 
+h2 {
+    font-size: 140%;
+}
+
 .icon {
     width: 5.7vw; 
     padding-left: 0.3em;
@@ -71,12 +75,14 @@ a:hover {
     width: 80px;
     border-radius: 40px;
 }
-.buttontext {
+#buttontext {
     margin-top: 0px;
     margin-left: 6px;
-    font-size: large;
+    padding: 4px 2px 4px 2px;
+    font-size: medium;
     color: rgb(250, 247, 232);
 }
+
 #logo {
     display: block;
     margin-left: auto;
@@ -110,7 +116,6 @@ section{
 }
 
 
-
 /* page review */
 .page2 h1,.page3 h1,.page4 h1 {
     /* margin-top: -3px;
@@ -130,7 +135,7 @@ ul {
     
 
     width: 110px;
-    height: 155px;
+    height: 180px;
     background-color:rgb(254, 241, 224) ;
     border-radius: 17px;
     box-shadow: 4px 6px 8px rgb(12, 55, 33);
@@ -139,7 +144,7 @@ ul {
 
 ul li {
     padding-left: 18px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-right: 8px;
     margin-top: 10px;
 }
@@ -163,8 +168,7 @@ ul li a {
     flex-direction: column;
     width: 150px;
     padding: 10px 25px 10px 25px;
-    margin-bottom: 1em;
-    margin-right: 7px;
+    margin: 8px 7px 1em 0;
     border-radius: 20px;
     background-color: rgb(10, 55, 32);
 }
@@ -178,7 +182,11 @@ ul li a {
     flex-direction: column;
 }
 .page2 p {
-    padding: 0 5px 0 5px;
+    padding: 4px 2px 4px 2px;
+    text-align: center;
+    font-size: smaller;
+}
+.page2 h3,.page2 h4 {
     text-align: center;
 }
 
@@ -187,6 +195,7 @@ header {
     z-index: 1;
     background-color: rgb(83, 110, 79);
     width: 91%;
+    text-align: center;
 
     margin-top: -16px;
     margin-left: -16px;
@@ -207,6 +216,7 @@ header {
     width: 150px;
     transition: all 0.15s ease;
     border-radius: 15px;
+    margin-top: 5px;
 }
 
 .images input {
@@ -223,13 +233,13 @@ header {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    border: solid white 3px;
+    border: solid rgb(254, 241, 224) 3px;
     cursor: pointer;
     transition: all 0.15s ease;
     margin: 5px;
 }
 
-.dots label:hover {background: rgb(255, 255, 255);
+.dots label:hover {background: rgb(254, 241, 224);
 }
 
 #img1:checked ~ .m1 {
@@ -248,6 +258,19 @@ header {
     margin-left: -300%;
 }
 
+
+
+#img5:checked ~ .m5 {
+    margin-left: 0;
+}
+
+#img6:checked ~ .m6 {
+    margin-left: -100%;
+}
+
+#img7:checked ~ .m7 {
+    margin-left: 0;
+}
 .line-thru {
     text-decoration: line-through;
 }
